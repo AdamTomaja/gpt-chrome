@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Extension Popup</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <style>
+    body {
+      width: 300px;
+      height: 200px;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      font-size: 18px;
+    }
+
+    p {
+      margin-top: 10px;
+      font-size: 14px;
+    }
+
+    button {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      padding: 8px 16px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="mt-3">ChatGPT Extension</h1>
+    <p class="mt-3">This is the popup for the ChatGPT extension. You can send the current URL to the webhook.</p>
+    <button id="myButton" class="btn btn-success mt-3">Send URL to Webhook</button>
+  </div>
+  <script src="config.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
